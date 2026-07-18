@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmut Engin | My Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tema Değiştirme Butonu (Sağ Üst Köşe İçin) -->
+    <button id="theme-toggle" class="theme-btn" aria-label="Tema Değiştir">🌙</button>
+
+    <div class="container">
+        <!-- Canlı Geri Sayım Sayacı Alanı -->
+        <section class="countdown-section">
+            <h3>Stajın Bitmesine Kalan Süre</h3>
+            <div id="countdown">Yükleniyor...</div>
+        </section>
+
+        <header class="profile">
+            <img src="foto/mengin.jpeg" alt="Mahmut Engin" class="avatar">
+            <h1>Mahmut Engin</h1>
+            <p>Data & Software Enthusiast | Tech Explorer</p>
+        </header>
+
+        <main class="links-container">
+            <section class="links">
+                <a href="https://github.com/MahmutEngin" target="_blank" class="link-btn">GitHub</a>
+                <a href="https://www.linkedin.com/in/mahmutenginnl" target="_blank" class="link-btn">LinkedIn</a>
+                <a href="https://www.instagram.com/tranquility2403" target="_blank" class="link-btn">Instagram</a>
+                <a href="https://rijexamenwoordenlijst--mengin.expo.app" target="_blank" class="link-btn">Kişisel Web Sitesi</a>
+            </section>
+        </main>
+<!-- Bölüm 3: PHP İletişim Formu -->
+        <section class="contact-section">
+            <h3>Bana Ulaşın</h3>
+            <form action="kaydet.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="ad" placeholder="Adınız" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="soyad" placeholder="Soyadınız" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="mesaj" rows="4" placeholder="Mesajınız" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Gönder</button>
+            </form>
+        </section>
+        <footer class="footer">
+            <p>© 2026 Tüm Hakları Saklıdır.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Dosyamız -->
+    <script src="script.js"></script>
+</body>
+</html>
