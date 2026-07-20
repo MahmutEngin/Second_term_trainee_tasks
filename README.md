@@ -1,124 +1,58 @@
-# Second_term_trainee_tasks
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# 🚀 25 Günlük Full-Stack Staj Programı ve Görevleri
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web teknolojileri görevlerini içermektedir. 
+## About Laravel
 
----
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## ⚠️ ÖNEMLİ: Git ve Forklama Akış Kuralları
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-### 👥 1. Takım Liderleri İçin Adımlar:
-1. Bu depoyu Takım liderleri kendi GitHub hesablarına **Fork** etmeliler.
-3. Fork ettiğiniz depoyu bilgisayarınıza **Clone** edin.
-4. Kendi adınızla bir çalışma branch'i açın: `git checkout -b #task-1-ad-soyad` - `git checkout -b #task-2-ad-soyad` vb şekilde.
-4. **Kural:** Asla `main` branch'inde doğrudan kod geliştirmesi yapmayın. Tüm kodlarınızı kendi branch'inizde yazıp push edin.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### 🧑‍💻 2. Takım Üyeleri İçin Adımlar:
-1. **DİKKAT:** Ana Görev reposunu DEĞİL, bağlı olduğunuz **Takım Liderinin GitHub hesabındaki depoyu Fork** edin.
-2. Liderinizden fork ettiğiniz depoyu bilgisayarınıza **Clone** edin.
-3. Kendi adınızla bir çalışma branch'i açın: `git checkout -b #task-1-ad-soyad` - `git checkout -b #task-2-ad-soyad` vb şekilde. 
-4. **Kural:** Asla `main` branch'inde doğrudan kod geliştirmesi yapmayın. Tüm görevleri kendi adınıza açtığınız bu branch içinde tamamlayıp push edin.
+## Learning Laravel
 
----
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## 🛠️ Görev Listesi ve Yol Haritası
+In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### 🎨 Bölüm 1: HTML & CSS (1-3. Gün)
-* **Görev:** Kendiniz için tek sayfalık bir "Linktree" klonu (Sosyal medya link ağ sayfası) yapın.
-* **Beklentiler:**
-  - [ ] HTML5 semantik etiketlerini kullanın.
-  - [ ] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
-  - [ ] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
-  - [ ] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
+You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
 
-### ⚡ Bölüm 2: JavaScript (4-6. Gün)
-* **Görev:** İlk görevde yaptığınız Linktree sayfasına "Karanlık Mod" ve "Geri Sayım Sayacı" ekleyin.
-* **Beklentiler:**
-  - [ ] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
-  - [ ] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
+## Agentic Development
 
-### 🐘 Bölüm 3: PHP (7-9. Gün)
-* **Görev:** İletişim formu verilerini veritabanı olmadan sunucudaki bir `.txt` dosyasına kaydedin.
-* **Beklentiler:**
-  - [ ] Ad, Soyad ve Mesaj alanlarından oluşan basit bir HTML formu oluşturun.
-  - [ ] Formun `action` parametresi bir PHP dosyasına yönlensin ve verileri `POST` metoduyla göndersin.
-  - [ ] PHP tarafında bu verileri alıp, sunucu içinde `mesajlar.txt` adlı bir dosyaya her yeni mesaj alt alta gelecek şekilde yazdırın.
+Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
 
-### 🌐 Bölüm 4: Laravel (10-12. Gün)
-* **Görev:** Hazır kimlik doğrulama (Giriş Yap / Kayıt Ol) sistemini ayağa kaldırın.
-* **Beklentiler:**
-  - [ ] Bilgisayarınızda sıfır bir Laravel projesi oluşturun.
-  - [ ] `Laravel Breeze` paketini projenize dahil edin.
-  - [ ] Yerel veritabanı (MySQL/SQLite) bağlantısını yapıp `php artisan migrate` komutunu çalıştırın.
-  - [ ] Kayıt olma, giriş yapma ve şifre sıfırlama ekranlarının sorunsuz çalıştığını tarayıcıda doğrulayın.
+```bash
+composer require laravel/boost --dev
 
-### ⚛️ Bölüm 5: React (13-15. Gün)
-* **Görev:** Vite veya Create React App kullanarak dinamik bir "Yapılacaklar (Todo) Listesi" yapın.
-* **Beklentiler:**
-  - [ ] Projeyi bileşenlere (Component) ayırın (Örn: `TodoInput`, `TodoList`, `TodoItem`).
-  - [ ] `useState` hook'u kullanarak listeye yeni eleman ekleme ve listeden eleman silme özelliklerini yapın.
-  - [ ] Sayfada anlık saati gösteren küçük bir dijital saat bileşeni ekleyin.
-
-### ⚙️ Bölüm 6: Node.js (16-18. Gün)
-* **Görev:** Express.js kullanarak statik bir JSON verisi dönen "Kitap Listesi API'si" yazın.
-* **Beklentiler:**
-  - [ ] `npm init` ile projeyi başlatıp `express` paketini yükleyin.
-  - [ ] Kodun içerisinde elle yazılmış (hardcoded) 3-4 adet kitap nesnesi barındıran bir dizi (Array) oluşturun.
-  - [ ] `/api/books` rotasına (Route) `GET` isteği atıldığında bu kitap listesini JSON formatında döndürün.
-
-### 🛠️ Bölüm 7: TypeScript (19-21. Gün)
-* **Görev:** Bir önceki Node.js API görevine TypeScript entegre ederek tip güvenliği sağlayın.
-* **Beklentiler:**
-  - [ ] Projeye TypeScript ekleyin ve `tsconfig.json` ayarlarını yapın.
-  - [ ] Kitap nesnesi için bir `interface` veya `type` tanımlayın (Örn: `id: number`, `title: string`, `author: string`).
-  - [ ] Kitap dizisini ve API fonksiyon parametrelerini bu tiplerle sınırlandırın.
-
-### 🚀 Bölüm 8: Next.js (22-25. Gün)
-* **Görev:** Next.js App Router yapısını kullanarak çok sayfalı basit bir web sitesi yapın.
-* **Beklentiler:**
-  - [ ] Sıfırdan bir Next.js projesi kurun.
-  - [ ] Klasör yapısını kullanarak `Ana Sayfa`, `Hakkımızda` ve `İletişim` sayfalarını oluşturun.
-  - [ ] Next.js'in kendi `<Link>` bileşenini kullanarak sayfalar arasında sayfa yenilenmeden geçiş yapılmasını sağlayın.
-
----
-
-## 📬 Teslim Süreci
-* Her görevi tamamladığınızda ilgili başlığın yanındaki `[ ]` kutucuğunu `[x]` olarak güncelleyin.
-* Kodlarınızı **kesinlikle kendi adınıza açtığınız branch'e** push edin.
-* Takım liderleri üyelerin branch'lerini, staj sorumluları ise takım liderlerinin branch'lerini GitHub üzerinden doğrudan takip edecektir. Başarılar dileriz!
-
----
-
-## 📖 Stajyerler İçin Teknik Kılavuz & İpuçları
-
-### 💡 1. Kutucukları `[ ]` İşaretlemek
-GitHub üzerinde yaptığınız görevlerin takibini kolaylaştırmak için bir checklist (yapılacaklar listesi) mekanizması bulunur. Bir görevi bitirdiğinizde projenizdeki `README.md` dosyasını kod editörünüzde açın:
-* Boş kutu görünümü için: `- [ ] Görev maddesi`
-* Tamamlanmış (işaretli) kutu görünümü için boşluğu silip **küçük x harfi** yazın: `- [x] Görev maddesi`
-
-Değişiklikleri push ettiğinizde GitHub sitenizde bu maddelerin otomatik olarak tik işaretiyle kapandığını göreceksiniz.
-
-### ⚡ 2. Next.js `<Link>` Bileşeni Kullanımı (Sayfa Yenilenmeden Geçiş)
-Klasik HTML sitelerinde kullanılan standart `<a href="...">` etiketi, tıklandığında tüm web sayfasını tarayıcıda tamamen baştan yükler (sayfa beyazlar ve yenilenir). 
-
-Next.js gibi modern kütüphanelerde ise sayfanın yenilenmesini önlemek ve kullanıcının anında diğer sayfaya geçmesini sağlamak için projenin en üstüne `next/link` kütüphanesi dahil edilir. Ekstra bir parametre vermenize gerek yoktur, sadece standard `<a>` yerine `<Link>` yazmanız yeterlidir.
-
-**Örnek Doğru Kullanım:**
-```jsx
-// Projenin en üstüne bu import satırını ekleyin:
-import Link from 'next/link';
-
-export default function Navigation() {
-  return (
-    <nav>
-      {/* Yanlış: <a href="/hakkimizda">Hakkımızda</a> (Sayfayı yeniler) */}
-      {/* Doğru: Sayfa yenilenmeden jet hızında geçiş sağlar 👇 */}
-      <Link href="/">Ana Sayfa</Link>
-      <Link href="/hakkimizda">Hakkımızda</Link>
-      <Link href="/iletisim">İletişim</Link>
-    </nav>
-  );
-}
+php artisan boost:install
 ```
 
+Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
